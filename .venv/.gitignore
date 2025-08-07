@@ -1,0 +1,17 @@
+# created by virtualenv automatically
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# PyCharm project files
+.idea/
+*.iml
+
+# Environment
+.venv/
+env/
+venv/
+
+# Log + cache
+*.log
+*.sqlite3
