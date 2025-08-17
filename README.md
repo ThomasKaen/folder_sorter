@@ -25,9 +25,8 @@ If you don’t have Python yet, download it here:
 ### 2. Run the Script  
 Open your terminal or command prompt and run:
 
-```bash
 python folder_sorter.py
-```
+
 
 Paste the **full path to the folder** you want to organize when prompted.
 
@@ -39,17 +38,17 @@ That’s it! The script will sort files and generate a log file called `sort_log
 
 **Before:**
 
-```
+
 Downloads/
 ├── image1.jpg
 ├── resume.pdf
 ├── script.py
 ├── notes.txt
-```
+
 
 **After:**
 
-```
+
 Downloads/
 ├── Images/
 │   └── image1.jpg
@@ -60,7 +59,7 @@ Downloads/
 ├── Others/
 │   └── notes.txt
 ├── sort_log.csv
-```
+
 
 ---
 
@@ -68,7 +67,7 @@ Downloads/
 
 You can edit the `FILE_CATEGORIES` dictionary at the top of the script to match your needs:
 
-```python
+python
 FILE_CATEGORIES = {
     "Images": [".jpg", ".jpeg", ".png", ".gif"],
     "Documents": [".pdf", ".docx", ".txt"],
@@ -76,7 +75,7 @@ FILE_CATEGORIES = {
     "Scripts": [".py", ".js", ".sh"],
     "Archives": [".zip", ".rar", ".7z"]
 }
-```
+
 
 Any file that doesn’t match a listed extension will go into the `Others/` folder.
 
