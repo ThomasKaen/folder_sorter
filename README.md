@@ -82,14 +82,6 @@ Any file that doesn’t match a listed extension will go into the `Others/` fold
 
 ---
 
-## 🧑‍💻 Created By
-
-**Tamas Kiss**  
-Python developer & automation specialist  
-> 💼 Hire me to build your custom scripts or automations on [Fiverr](#)
-
----
-
 ## 🛠️ Need Custom Features?
 
 This script can be modified for:
@@ -101,3 +93,6 @@ This script can be modified for:
 📩 Just reach out if you’d like a custom version.
 
 ---
+📜 **License**: All Rights Reserved © 2025 ThomasKaen  
+This project is for personal/portfolio use only.  
+For commercial use or custom solutions, please contact me via [Fiverr](https://www.fiverr.com/thomas_kaen).
